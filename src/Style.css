@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
+.hello{
+	color: white;
+	background: transparent;
+	z-index: 2;
+	font-family: 'Prompt', sans-serif;
+	position: absolute;	
+	top: 6%;
+	left: 6%;
+	font-size: 1.5em;
+} 
+.im{
+	font-family: 'Prompt', sans-serif;
+	font-size: 0.5em;
+	color: white;
+
+}
+ .logo{
+	color: #0EFF2C;
+	background: transparent;
+	z-index: 3;
+	font-weight: bolder;
+	font-family: 'Sacramento', cursive;
+	position: absolute;	
+	top: 14%;
+	left: 6%;
+	font-size: 4em;
+}
+
+.left{
+	float: 0.5;
+	z-index: 3; 
+	position: fixed;
+}
+.left .wrapper{
+		width: 100%;
+		height: 100%;
+		padding-right: 40px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		color: #fff;
+		z-index: 3;
+}
+.left h1{
+  font-size: 65px;
+  font-family: 'Comforter Brush', cursive;
+  margin: 10px 0;
+  z-index: 3; 
+}
+.left h2{
+	font-weight: 100;
+	font-size: 30px;
+	font-family: 'Orelega One', cursive;
+
+}
+.left h3{
+	font-size: 30px;
+}
+.left  span{
+	font-size: inherit;
+	color: #0EFF2C;
+}
+.left .cont{
+	font-family: 'Orelega One', cursive;
+	position: absolute;
+	bottom: -10vh;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	background-color: #0EFF2C;
+	border: 1px solid white;
+	padding: 12px 40px;
+	border-radius: 5%;
+	letter-spacing: 1px;
+	background: none;
+	cursor: crosshair;
+	transition: 0.8s ease-out;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+.cont:hover{
+	font-size: 20px;
+	color: #0EFF2C;
+	border: 1px solid #0EFF2C;
+	cursor: crosshair;
+}
+
+.myBtn:hover{
+	
+
+}
+
+.right ul{
+	text-decoration: none;
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+@keyframes slide {
+  from {
+    left: -100vw;
+  }
+  to {
+    left: 0;
+  }
+}
+
+.main{
+	display: grid;
+	align-content: center;
+	justify-content: left;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 2%;
+	font-family: 'Prompt', sans-serif;
+}
+.main .option{
+	margin-left: 4em;
+	margin-top: 2em;
+	height: 90px;
+	line-height: 90px;
+	overflow: hidden;
+
+}
+.option li{
+	list-style: none;
+	color: #0EFF2C;
+	font-size: 50px;
+	font-weight: 600;
+	position: relative;
+	top: 0;
+	animation: slideA 12s steps(4) infinite;
+}
+@keyframes slideA{
+	100%{
+		top: -360px;
+	}
+}
+
+
+.option li span{
+	position: relative;
+	margin: 5px 0;
+	line-height: 90px;
+}
+
+.option li span:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	border-left: 2px solid #0EFF2C;
+	animation: typing 3s steps(11) infinite;
+}
+@keyframes typing{
+	40%, 60%{
+		left: calc(100% + 30px);
+	}
+	100%{
+		left: 0;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+  .logo{
+  	font-size: 3em;
+  }
+  .container{
+  	width: 100%;
+  }
+  .container ul  {
+
+    display: -webkit-inline-box;
+    top: 67%;
+    left: 44%;	
+    }
+    
+  .container ul li {
+	padding-top: 5px;
+    font-size: 12.5px;
+    padding-right: 15px;
+    }
+    
+
+}
+Canvas{
+	position: relative;
+	background-color: black;
+	z-index: 0;
+	}
