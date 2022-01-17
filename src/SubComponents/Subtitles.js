@@ -14,7 +14,7 @@ transform: translate(-50%,-50%);
 z-index:3;
 
 @media (max-width: 768px) {
-    top: 85%;
+    top: 75%;
     right: -12%;
 transform: translate(-50%,-50%);
 }
