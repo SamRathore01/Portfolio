@@ -1,4 +1,4 @@
-import { Route, Routes,useLocation } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 import GlobalStyle  from "./globalStyles";
 import './App.css';
@@ -11,7 +11,7 @@ import MySkillsPage from './Components/MySkillsPage';
 import SoundBar from "./SubComponents/SoundBar";
 
 function App() {
-  const location = useLocation();
+  
   return (
     <>
     

@@ -41,7 +41,7 @@ const Controls = () =>{
 function Canva() {
         
         const [hovered, setHovered] = useState(false);
-        const [active,setActive] =useState();
+        const [active,setActive] = useState();
         const style = useSpring({
                 scale : active ? [1,1,1] : [1,1,1],
                 color : hovered ? 'hotpink' : 'grey',
@@ -62,7 +62,7 @@ function Canva() {
              <Controls/>
              <ambientLight/>
              <Hammer/>
-             <spotLight position={0,5,10} penumbra={1}/>
+             <spotLight position={10} penumbra={1}/>
         
     </a.mesh>
     )
