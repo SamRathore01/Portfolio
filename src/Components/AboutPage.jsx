@@ -76,7 +76,7 @@ const MySkillsPage = () => {
     return (
         
         <Box>
-            <BigTitle text = "ABOUT" top='20%' left ="55%"  /> 
+            <BigTitle text = "ABOUT" top='40%' left ="35%"  /> 
             <HeaderD/>
             <Home/>
             
