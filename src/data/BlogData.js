@@ -1,19 +1,19 @@
 export const Blogs = [
     {
         id:1,
-        name:"Build Website with ReactJS, Styled-components and GSAP for Tax Return",
-        tags:["react","gsap","styled-components"],
-        date:"00 May, 2021",
+        name:"Weather Fetch Website",
+        tags:["react","Axios","styled-components"],
+        date:"13 Jan, 2022",
         imgSrc:"",
-        link:""
+        link:"wdt.netlify.app"
     },
     {
         id:2,
-        name:"How to create React Hamburger Menu using Styled-Components",
+        name:"Tax Reutn",
         tags:["react","styled-components"],
         date:"5 July, 2021",
         imgSrc:"",
-        link:""
+        link:"https://taxsitez.netlify.app"
     },
     {
         id:3,

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import React  from 'react';
-import img from '../assets/Images/spb.png'
+import img from '../assets/Images/sp.jpg'
 import { Blogs } from '../data/BlogData';
 import BlogComponent from './WorkComponent';
 
