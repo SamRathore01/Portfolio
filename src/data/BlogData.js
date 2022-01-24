@@ -5,7 +5,7 @@ export const Blogs = [
         tags:["react","Axios","styled-components"],
         date:"13 Jan, 2022",
         imgSrc:"",
-        link:"wdt.netlify.app"
+        link:"https://wdt.netlify.app/"
     },
     {
         id:2,

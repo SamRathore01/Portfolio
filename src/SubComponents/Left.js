@@ -38,6 +38,10 @@ const Left = () => {
             top: '-105vh',
         }
     }
+    function alerter() {
+       
+        window.alert('Something went wrong please try sending direct Email')
+    }
 
     return (
         <>
@@ -65,9 +69,26 @@ const Left = () => {
                      animate ={isOpen ? 'opened' : 'closed'}
                      transition={{ duration:0.5}}
                      >
-                     <div>
-                        <h1>Digvijay721@yahoo.com </h1>
-                     </div>
+                     <div class="container">  
+  <form id="contact" action="" onSubmit={alerter}  >
+    <h3>Say Hello</h3>
+    <h4>Direct Message me on 'Digvijay721@yahoo.com'</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus/>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required/>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+ 
+  
+</div>
                         
                     
                     </motion.div>
