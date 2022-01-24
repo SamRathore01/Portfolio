@@ -72,7 +72,7 @@ const Left = () => {
                      <div class="container">  
   <form id="contact" action="" onSubmit={alerter}  >
     <h3>Say Hello</h3>
-    <h4>Direct Message me on 'Digvijay721@yahoo.com'</h4>
+    <h4>Direct Message me on <span className='id'>'Digvijay721@yahoo.com' </span></h4>
     <fieldset>
       <input placeholder="Your name" type="text" tabindex="1" required autofocus/>
     </fieldset>
