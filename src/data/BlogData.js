@@ -1,5 +1,5 @@
 import ProjectImg from '../assets/Images/projectImg.png';
-import UTrackerImg from '../assets/Images/utracker.jpg';
+import UTrackerImg from '../assets/Images/tax.jpg';
 import GreenCtgImg from '../assets/Images/f.png';
 import CoinTrackerImg from '../assets/Images/cointracker.jpg';
 import CavinImg from '../assets/Images/cavinimg.jpg';
@@ -10,15 +10,15 @@ export const Blogs = [
         name:"Weather Fetch Website",
         tags:["react","Axios","styled-components"],
         date:"13 Jan, 2022",
-        imgSrc:UTrackerImg,
+        imgSrc:GreenCtgImg,
         link:"https://wdt.netlify.app/"
     },
     {
         id:2,
-        name:"Tax Reutn",
+        name:"Tax Return",
         tags:["react","styled-components"],
         date:"5 July, 2021",
-        imgSrc:GreenCtgImg,
+        imgSrc:UTrackerImg,
         link:"https://taxsitez.netlify.app"
     },
     {
