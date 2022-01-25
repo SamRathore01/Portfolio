@@ -7,18 +7,18 @@ import CavinImg from '../assets/Images/cavinimg.jpg';
 export const Blogs = [
     {
         id:1,
-        name:"Weather Fetch Website",
+        name:"Tax Return ",
         tags:["react","Axios","styled-components"],
-        date:"13 Jan, 2022",
-        imgSrc:GreenCtgImg,
+        date:"09 November, 2021",
+        imgSrc:UTrackerImg,
         link:"https://wdt.netlify.app/"
     },
     {
         id:2,
-        name:"Tax Return",
+        name:"Weather Fetch Website",
         tags:["react","styled-components"],
-        date:"5 July, 2021",
-        imgSrc:UTrackerImg,
+        date:"13 Jan, 2022",
+        imgSrc:GreenCtgImg,
         link:"https://taxsitez.netlify.app"
     },
     {
