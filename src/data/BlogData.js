@@ -1,7 +1,7 @@
 import ProjectImg from '../assets/Images/projectImg.png';
 import UTrackerImg from '../assets/Images/tax.png';
 import GreenCtgImg from '../assets/Images/f.png';
-import CoinTrackerImg from '../assets/Images/cointracker.jpg';
+import CoinTrackerImg from '../assets/Images/rdx.png';
 import CavinImg from '../assets/Images/cavinimg.jpg';
 
 export const Blogs = [
@@ -23,9 +23,9 @@ export const Blogs = [
     },
     {
         id:3,
-        name:"React Loading Screen: Try these 3 cool loading screens for your app",
-        tags:["react","react-lottie","styled-components"],
-        date:"6 July, 2021",
+        name:"React and redux News app",
+        tags:["react","redux","Ant design","Rapid-Api"],
+        date:"6 August, 2021",
         imgSrc: CoinTrackerImg,
         URL:""
     },
