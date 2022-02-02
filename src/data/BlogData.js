@@ -17,7 +17,7 @@ export const Blogs = [
         id:2,
         name:"Weather Fetch Website",
         tags:["react","styled-components"],
-        date:"13 Jan, 2022",
+        date:"12 Jan, 2022",
         imgSrc:GreenCtgImg,
         URL:"https://taxsitez.netlify.app"
     },
