@@ -27,7 +27,7 @@ export const Blogs = [
         tags:["react","redux","Ant design","Rapid-Api"],
         date:"6 August, 2021",
         imgSrc: CoinTrackerImg,
-        URL:""
+        URL:"https://ausnews.netlify.app"
     },
     {
         id:4,
