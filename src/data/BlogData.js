@@ -8,7 +8,7 @@ export const Blogs = [
     {
         id:1,
         name:"Tax Return ",
-        tags:["react","Axios","styled-components"],
+        tags:["react","Axios","framer motion"],
         date:"09 November, 2021",
         imgSrc:UTrackerImg,
         URL:"https://wdt.netlify.app/"
