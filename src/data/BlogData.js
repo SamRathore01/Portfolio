@@ -1,5 +1,5 @@
 import ProjectImg from '../assets/Images/projectImg.png';
-import UTrackerImg from '../assets/Images/tax.jpg';
+import UTrackerImg from '../assets/Images/tax.png';
 import GreenCtgImg from '../assets/Images/f.png';
 import CoinTrackerImg from '../assets/Images/cointracker.jpg';
 import CavinImg from '../assets/Images/cavinimg.jpg';
@@ -11,7 +11,7 @@ export const Blogs = [
         tags:["react","Axios","styled-components"],
         date:"09 November, 2021",
         imgSrc:UTrackerImg,
-        link:"https://wdt.netlify.app/"
+        URL:"https://wdt.netlify.app/"
     },
     {
         id:2,
@@ -19,7 +19,7 @@ export const Blogs = [
         tags:["react","styled-components"],
         date:"13 Jan, 2022",
         imgSrc:GreenCtgImg,
-        link:"https://taxsitez.netlify.app"
+        URL:"https://taxsitez.netlify.app"
     },
     {
         id:3,
@@ -27,7 +27,7 @@ export const Blogs = [
         tags:["react","react-lottie","styled-components"],
         date:"6 July, 2021",
         imgSrc: CoinTrackerImg,
-        link:""
+        URL:""
     },
     {
         id:4,
@@ -35,7 +35,7 @@ export const Blogs = [
         tags:["react","redux","framer-motion"],
         date:"26 May, 2021",
         imgSrc:CavinImg,
-        link:""
+        URL:""
     },
     {
         id:5,
@@ -43,7 +43,7 @@ export const Blogs = [
         tags:["react","reactJS","web-development"],
         date:"3 Feb, 2021",
         imgSrc:ProjectImg,
-        link:""
+        URL:""
     },
   
 ] 
