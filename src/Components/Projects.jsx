@@ -46,7 +46,7 @@ const Projects = () => {
             <span>#Redux </span>
             <span>#Rapid Api </span>
             </ul>
-            <a href='https://ausnews.netlify.app' target="_blank" className='portfolio_button'>
+            <a href='https://ausnews.netlify.app' target="_blank" className='portfolio_button' rel="noreferrer">
               Demo
             </a>
             </div>
@@ -64,7 +64,7 @@ const Projects = () => {
             <span>#Axios </span>
             <span>#Open weather </span>
             </ul>
-            <a href='https://wdt.netlify.app' target="_blank" className='portfolio_button'>
+            <a href='https://wdt.netlify.app' target="_blank" className='portfolio_button' rel="noreferrer">
               Demo
             </a>
             </div>
@@ -82,7 +82,7 @@ const Projects = () => {
             <span>#Ant design </span>
             <span>#Node js</span>
             </ul>
-            <a href='https://taxsitez.netlify.app' target="_blank" className='portfolio_button'>
+            <a href='https://taxsitez.netlify.app' target="_blank" className='portfolio_button' rel="noreferrer">
               Demo
             </a>
             </div>
@@ -91,7 +91,7 @@ const Projects = () => {
 
         <div>
           <div className='portfolio_content_grid2'>
-            <img src={p4} alt=''   className='portfolio_img'  className='portfolio_img' ></img>
+            <img src={p4} alt=''  className='portfolio_img' ></img>
             <div className='description2' >
             <h3 className='portfolio_title' > Portfolio </h3>
             <p className='portfolio_description'> Source code portfolio with CI/CD integrated and live demo</p>
@@ -100,7 +100,7 @@ const Projects = () => {
             <span>#ThreeJs </span>
             <span>#styled components</span>
             </ul>
-            <a href='github.com/SamRathore01/portfolio' target="_blank" className='portfolio_button'>
+            <a href='github.com/SamRathore01/portfolio' target="_blank" className='portfolio_button' rel="noreferrer">
               Source Code
             </a>
             </div>
