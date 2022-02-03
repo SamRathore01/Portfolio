@@ -37,7 +37,7 @@ const Projects = () => {
       <div className=' portfolio_container container1'>
         <div>
            <div className='portfolio_content grid'>
-            <img src={p1} alt='' target="_blank" href = 'https://ausnews.netlify.app'  className='portfolio_img' ></img>
+            <img src={p1} alt=''  className='portfolio_img' ></img>
             <div className='description' >
             <h3 className='portfolio_title' > Daily News</h3>
             <p className='portfolio_description'>Daily news tell's latest news around the world and more :)  </p>
@@ -46,7 +46,7 @@ const Projects = () => {
             <span>#Redux </span>
             <span>#Rapid Api </span>
             </ul>
-            <a href='https://ausnews.netlify.app' className='portfolio_button'>
+            <a href='https://ausnews.netlify.app' target="_blank" className='portfolio_button'>
               Demo
             </a>
             </div>
@@ -55,7 +55,7 @@ const Projects = () => {
 
         <div>  
           <div className='portfolio_content_grid2'>
-            <img src={p2} alt='' target="_blank" href = 'https://wdt.netlify.app' className='portfolio_img' ></img>
+            <img src={p2} alt=''   className='portfolio_img' ></img>
             <div className='description2' >
             <h3 className='portfolio_title' > Fetch live Weather</h3>
             <p className='portfolio_description'> Fetch tells the user exact location with current Time, Temprature <br/>and more</p>
@@ -64,7 +64,7 @@ const Projects = () => {
             <span>#Axios </span>
             <span>#Open weather </span>
             </ul>
-            <a href='https://wdt.netlify.app' className='portfolio_button'>
+            <a href='https://wdt.netlify.app' target="_blank" className='portfolio_button'>
               Demo
             </a>
             </div>
@@ -73,7 +73,7 @@ const Projects = () => {
 
         <div>
           <div className='portfolio_content grid'>
-            <img src={p3} alt='' href = 'https://taxsitez.netlify.app' target="_blank"  className='portfolio_img' ></img>
+            <img src={p3} alt=''  className='portfolio_img' ></img>
             <div className='description' >
             <h3 className='portfolio_title' > Modern Website</h3>
             <p className='portfolio_description'> Want to get best return for your tax. we got you :) </p>
@@ -82,7 +82,7 @@ const Projects = () => {
             <span>#Ant design </span>
             <span>#Node js</span>
             </ul>
-            <a href='https://taxsitez.netlify.app' className='portfolio_button'>
+            <a href='https://taxsitez.netlify.app' target="_blank" className='portfolio_button'>
               Demo
             </a>
             </div>
@@ -91,7 +91,7 @@ const Projects = () => {
 
         <div>
           <div className='portfolio_content_grid2'>
-            <img src={p4} alt='' href= 'github.com/SamRathore01/portfolio' target="_blank"  className='portfolio_img'  className='portfolio_img' ></img>
+            <img src={p4} alt=''   className='portfolio_img'  className='portfolio_img' ></img>
             <div className='description2' >
             <h3 className='portfolio_title' > Portfolio </h3>
             <p className='portfolio_description'> Source code portfolio with CI/CD integrated and live demo</p>
@@ -100,7 +100,7 @@ const Projects = () => {
             <span>#ThreeJs </span>
             <span>#styled components</span>
             </ul>
-            <a href='github.com/SamRathore01/portfolio'  className='portfolio_button'>
+            <a href='github.com/SamRathore01/portfolio' target="_blank" className='portfolio_button'>
               Source Code
             </a>
             </div>
