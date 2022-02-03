@@ -37,7 +37,7 @@ const Projects = () => {
       <div className=' portfolio_container container1'>
         <div>
            <div className='portfolio_content grid'>
-            <img src={p1} alt='' className='portfolio_img' ></img>
+            <img src={p1} alt='' href = 'https://ausnews.netlify.app'  className='portfolio_img' ></img>
             <div className='description' >
             <h3 className='portfolio_title' > Daily News</h3>
             <p className='portfolio_description'>Daily news tell's latest news around the world and more :)  </p>
@@ -55,7 +55,7 @@ const Projects = () => {
 
         <div>  
           <div className='portfolio_content_grid2'>
-            <img src={p2} alt='' className='portfolio_img' ></img>
+            <img src={p2} alt='' href = 'https://wdt.netlify.app' className='portfolio_img' ></img>
             <div className='description2' >
             <h3 className='portfolio_title' > Fetch live Weather</h3>
             <p className='portfolio_description'> Fetch tells the user exact location with current Time, Temprature <br/>and more</p>
@@ -73,7 +73,7 @@ const Projects = () => {
 
         <div>
           <div className='portfolio_content grid'>
-            <img src={p3} alt='' className='portfolio_img' ></img>
+            <img src={p3} alt='' href = 'https://taxsitez.netlify.app'  className='portfolio_img' ></img>
             <div className='description' >
             <h3 className='portfolio_title' > Modern Website</h3>
             <p className='portfolio_description'> Want to get best return for your tax. we got you :) </p>
@@ -91,7 +91,7 @@ const Projects = () => {
 
         <div>
           <div className='portfolio_content_grid2'>
-            <img src={p4} alt='' className='portfolio_img' ></img>
+            <img src={p4} alt='' href = 'https://github.com/SamRathore01/portfolio'  className='portfolio_img' ></img>
             <div className='description2' >
             <h3 className='portfolio_title' > Portfolio </h3>
             <p className='portfolio_description'> Source code portfolio with CI/CD integrated and live demo</p>
