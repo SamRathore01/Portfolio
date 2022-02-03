@@ -100,8 +100,8 @@ const Projects = () => {
             <span>#ThreeJs </span>
             <span>#styled components</span>
             </ul>
-            <a href='https://www.google.com' className='portfolio_button'>
-              Github
+            <a href='https://github.com/SamRathore01/portfolio' className='portfolio_button'>
+              Source Code
             </a>
             </div>
           </div>
