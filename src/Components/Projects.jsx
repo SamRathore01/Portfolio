@@ -91,7 +91,7 @@ const Projects = () => {
 
         <div>
           <div className='portfolio_content_grid2'>
-            <img src={p4} alt='' href = 'https://github.com/SamRathore01/portfolio'  className='portfolio_img' ></img>
+            <img src={p4} alt=''   className='portfolio_img' ></img>
             <div className='description2' >
             <h3 className='portfolio_title' > Portfolio </h3>
             <p className='portfolio_description'> Source code portfolio with CI/CD integrated and live demo</p>
