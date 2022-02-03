@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
 
 .hello{
 	color: white;
@@ -92,10 +93,7 @@
 	cursor: crosshair;
 }
 
-.myBtn:hover{
-	
 
-}
 
 .right ul{
 	text-decoration: none;
@@ -200,3 +198,88 @@ Canvas{
 	background-color: black;
 	z-index: 0;
 	}
+
+	.portfolio_section{
+		font-size: 0em;
+		font-family: 'Rowdies', cursive;
+		margin-top: 3%;
+		transform: rotate(-45deg);
+		color: #fff;
+		display: inline-flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.portfolio_container{
+		overflow: initial;
+		color: #fff;
+		font-family: 'Rowdies', cursive;
+		margin-top: 10vh;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		flex-wrap: wrap;
+		
+	}
+	
+	.portfolio_content{
+		display: flex;
+		padding: 0 1.5rem;
+		margin-bottom: 2em;
+	}
+	.portfolio_content_grid2{
+		display: flex;
+		flex-direction: row-reverse;
+		padding:  1.5rem;
+	}
+	.description{
+		display: flex;
+		flex-direction: column;
+		padding: 2em;
+		align-items: flex-end;
+	}
+	.description2{
+		display: flex;
+		flex-direction: column;
+		padding: 2em;
+		align-items: flex-start;
+	}
+	.portfolio_img{
+		width: 450px;
+		height: 300px;
+		border-radius:.5rem ;
+		justify-self: center;
+	}
+	.portfolio_title{
+		font-size: 2.5vw;
+		margin-bottom: 1.5em;
+	}
+	.portfolio_description {
+		margin-bottom: 1rem;
+	}
+	a{
+		text-decoration: none;
+	}
+	.portfolio_button{
+	color: #fff;
+	padding: 1vh 2vw;
+	margin-top: 1vh;
+	background-color: black;
+	border: 2px solid #fff;
+	}
+	
+	@media only screen and (max-width: 786px) {
+		.portfolio_section{
+			font-size: 0em;
+			margin-top: 5%;
+			padding: auto;
+			transform: rotate(-35deg);
+			
+		}
+	
+		.portfolio_img{
+			width: 200px;
+			height: 150px;
+			border-radius:.5rem ;
+			justify-self: center;
+		}
+	  }

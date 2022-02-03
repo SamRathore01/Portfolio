@@ -9,6 +9,7 @@ import WorkPage from './Components/WorkPage';
 import MySkillsPage from './Components/MySkillsPage';
 
 import SoundBar from "./SubComponents/SoundBar";
+import Projects from './Components/Projects';
 
 function App() {
   
@@ -23,6 +24,7 @@ function App() {
      <Route  path="/about" element={<AboutPage/>} />
     <Route  path="/work" element={<WorkPage/>} />
     <Route  path="/skills" element={<MySkillsPage/>} />
+    <Route  path="/projects" element={<Projects/>} />    
     </Routes>
     </>
 

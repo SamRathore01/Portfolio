@@ -106,7 +106,7 @@ const Subtitles = () => {
                     animate={{x:0,
                         transition:{type:'spring', duration:1.5,delay:1.3}
                         }}>Skills</motion.h2></Skill>
-            <Work to="/work"><motion.h2
+            <Work to="/projects"><motion.h2
                 whileHover ={{scale:1.1}}
                 whiletap={{scale:0.9}}
                 initial={{x:200,
