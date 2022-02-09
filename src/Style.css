@@ -282,4 +282,12 @@ Canvas{
 			border-radius:.5rem ;
 			justify-self: center;
 		}
+		.portfolio_content{
+			display: flex;
+			flex-direction: column;
+		}
+		.portfolio_content_grid2{
+			display: flex;
+			flex-direction: column;
+		}
 	  }
