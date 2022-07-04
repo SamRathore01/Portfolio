@@ -1,5 +1,5 @@
 # Live Demo
-https://samrathore.netlify.app
+https://samrathore.com
 
 ## Available Scripts
 
