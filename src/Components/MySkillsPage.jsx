@@ -108,7 +108,7 @@ const MySkillsPage = () => {
 
              <Main>
             <Title>
-                    <Develope width={0} height ={0}/>Front End Developer
+                    <Develope width={0} height ={0}/>Front End 
                 </Title>
                 <Description>
                 I'm a web Developer and I love to build bring idea's to life and keep makeing it perfect. 
@@ -116,7 +116,7 @@ const MySkillsPage = () => {
                 <Description>
                 <strong > Skills</strong>
                 <p>
-                    Html, Css, Js, React,Php,MySql,AWS, ThreeJs etc.
+                    React,Typescript,NextJs,python,C/C#,Redux,React Native, ThreeJs etc.
                 </p>
                 </Description>
                 <Description>
@@ -139,19 +139,22 @@ const MySkillsPage = () => {
             >
             <Main>
                 <Title>
-                    <Design width={0} height ={0}/>Designer
+                    <Design width={0} height ={0}/>Back End
                 </Title>
                 <Description>
                 I'm a self taught programmer and Coding is my passion                
                 </Description>
                 <Description>
-                <strong >  Design</strong>
+                <strong >  Skills</strong>
                 <ul>
                     <li>
-                        Responsive Design's
+                        Asp.net/ NodeJs/ Express
                     </li>
                     <li>
-                        Native Development
+                        Rest API's/AWS/GCP
+                    </li>
+                    <li>
+                        MYSQL/GraphQL
                     </li>
                 </ul>
                 </Description>
@@ -159,7 +162,7 @@ const MySkillsPage = () => {
                 <strong >  Tools</strong>
                 <ul>
                     <li>
-                        WebFlow
+                    SSMS,Figma,webflow
                     </li>
                     <li>
                     3D Design(3js)
