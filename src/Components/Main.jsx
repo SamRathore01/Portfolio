@@ -19,7 +19,7 @@ position: absolute;
 z-index: 0;
 background-color: currentColor;
 `
-
+console.log("Hello :)")
 
 const Main = () => {
     return (
